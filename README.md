@@ -1,5 +1,13 @@
 # DockerRegistry
 
+[![Build Status](http://img.shields.io/travis/Aigeruth/docker-private-registry.svg)][travis]
+[![Coverage](http://img.shields.io/coveralls/Aigeruth/docker-private-registry.svg)][coveralls]
+[![Code Climate](http://img.shields.io/codeclimate/github/Aigeruth/docker-private-registry.svg)][codeclimate]
+
+[travis]: http://travis-ci.org/Aigeruth/docker-private-registry
+[coveralls]: https://coveralls.io/r/Aigeruth/docker-private-registry
+[codeclimate]: https://codeclimate.com/github/Aigeruth/docker-private-registry
+
 Docker Registry implemented in Ruby.
 
 * [Demo](http://docker-private-registry.herokuapp.com)
