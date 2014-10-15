@@ -1,8 +1,10 @@
 # DockerRegistry
 
 [![Build Status](http://img.shields.io/travis/Aigeruth/docker-private-registry.svg)][travis]
+[![Code Climate](http://img.shields.io/codeclimate/github/Aigeruth/docker-private-registry.svg)][codeclimate]
 
 [travis]: http://travis-ci.org/Aigeruth/docker-private-registry
+[codeclimate]: https://codeclimate.com/github/Aigeruth/docker-private-registry
 
 Docker Registry implemented in Ruby.
 
