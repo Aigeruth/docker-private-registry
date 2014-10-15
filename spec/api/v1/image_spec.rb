@@ -11,10 +11,6 @@ describe DockerRegistry::V1::ImageAPI do
     allow_any_instance_of(DockerRegistry::Backends::Dummy::Repository).to receive(:exist?).and_return(false)
   end
 
-  before do
-    DockerRegistry::App.settings.backend = 'dummy'
-  end
-
   subject { last_response }
 
   describe 'images' do
