@@ -1,0 +1,27 @@
+!!!
+%html{ lang: 'en' }
+  %head
+    %meta{ charset: 'utf-8' }
+    %meta{ http_equiv: 'X-UA-Compatible', content: 'IE=edge'}
+    %meta{ name: 'viewport', content: 'width=device-width, initial-scale=1'}
+    %title Docker Private Registry
+    %link{rel: :stylesheet, type: 'text/css', href: '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'}
+    :css
+      .container h3 {
+        margin-bottom: 35px;
+      }
+      .container .tab-content {
+        padding: 20px;
+      }
+  %body
+    .page-header
+      .container
+        %h1
+          %a{href: '/'} Docker Private Registry
+    .container
+      = yield
+    %script{src: '//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'}
+    %script{src: '//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'}
+    %script{src: '//cdnjs.cloudflare.com/ajax/libs/zeroclipboard/2.1.6/ZeroClipboard.min.js'}
+    :javascript
+      var client = new ZeroClipboard($(".btn.btn-primary.btn-xs"));

@@ -1,0 +1,7 @@
+storage/
+coverage
+.rubocop_todo.yml
+.DS_Store
+config.yml
+.bundle
+spec/integration/.vagrant

@@ -1,0 +1,6 @@
+.row
+  %h3 List of repositories
+  %ul.list-group
+    - repositories.each do |repository|
+      %li.list-group-item
+        %a{href: "/repositories/#{repository.namespace}/#{repository.name}"}= "#{repository.namespace}/#{repository.name}"

@@ -1,0 +1,28 @@
+.row
+  %h3= "#{repository.namespace}/#{repository.name}"
+  %ul.nav.nav-tabs{ role: 'tablist' }
+    %li.active
+      %a{href: "#description", role: 'tab', data: { toggle: 'tab' }}
+        Information
+    %li
+      %a{href: "#tags", role: 'tab', data: { toggle: 'tab' }}
+        Tags
+  .tab-content
+    .tab-pane.active{id: "description"}
+      .container
+        %h4 Usage
+
+        %code
+          = "docker pull #{url}"
+        %button.btn.btn-primary.btn-xs{type: 'button', data: { clipboard_text: "docker pull #{url}" }} Copy
+    .tab-pane{id: "tags"}
+      .container
+        %h4 Tags
+        %ul
+          - repository.tags.keys.each do |tag|
+            %li
+              = tag
+              \:
+              %code
+                = "docker pull #{url}:#{tag}"
+              %button.btn.btn-primary.btn-xs{type: 'button', data: { clipboard_text: "docker pull #{url}:#{tag}" }} Copy

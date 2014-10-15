@@ -1,0 +1,66 @@
+DEPENDENCIES
+  docker
+  rbenv
+    git: git://github.com/fnichol/chef-rbenv.git
+    revision: f2b53292e810dd2b43f6121f9958f5f29979dcb1
+    tag: v0.7.2
+  ruby_build
+    git: git://github.com/fnichol/chef-ruby_build.git
+    revision: 7e75dc70f46b26e73f482fa4403282d98dff6bc6
+    tag: v0.8.0
+
+GRAPH
+  apt (2.4.0)
+  aufs (0.1.1)
+    apt (>= 0.0.0)
+    modules (>= 0.0.0)
+  build-essential (2.0.4)
+  chef_handler (1.1.6)
+  device-mapper (0.1.0)
+    apt (>= 0.0.0)
+    modules (>= 0.0.0)
+  dmg (2.2.0)
+  docker (0.35.2)
+    apt (>= 0.0.0)
+    aufs (>= 0.1.1)
+    device-mapper (>= 0.1.0)
+    git (>= 0.0.0)
+    golang (>= 0.0.0)
+    homebrew (>= 0.0.0)
+    iptables (>= 0.0.0)
+    lxc (>= 1.1.6)
+    modules (>= 0.0.0)
+    runit (>= 0.0.0)
+    sysctl (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  dpkg_autostart (0.1.10)
+  git (4.0.2)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    runit (>= 1.0.0)
+    windows (>= 0.0.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  golang (1.4.0)
+  homebrew (1.7.2)
+  iptables (0.13.2)
+  java (1.22.0)
+  lxc (1.1.8)
+    dpkg_autostart (~> 0.1.10)
+  modules (0.2.0)
+  ohai (2.0.1)
+  rbenv (0.7.2)
+    java (> 1.4.0)
+    ruby_build (>= 0.0.0)
+  ruby_build (0.8.0)
+  runit (1.5.10)
+    build-essential (>= 0.0.0)
+    yum (~> 3.0)
+    yum-epel (>= 0.0.0)
+  sysctl (0.6.0)
+    ohai (>= 0.0.0)
+  windows (1.32.3)
+    chef_handler (>= 0.0.0)
+  yum (3.2.2)
+  yum-epel (0.3.6)
+    yum (~> 3.0)

@@ -1,0 +1,13 @@
+development: &default
+  backend: local_storage
+  backends:
+    local_storage:
+      storage_path: storage
+
+test:
+  <<: *default
+  backend: dummy
+
+production:
+  <<: *default
+  backend: local_storage
