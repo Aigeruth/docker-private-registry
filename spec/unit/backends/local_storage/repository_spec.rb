@@ -1,8 +1,6 @@
 require 'spec_helper'
 
 describe DockerRegistry::Backends::LocalStorageRepository do
-  before { DockerRegistry::App.settings.backend = 'local_storage' }
-
   let(:namespace) { 'test' }
   let(:repository) { 'test' }
   let(:instance) { described_class.new namespace, repository }
