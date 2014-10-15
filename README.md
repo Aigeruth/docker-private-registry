@@ -1,5 +1,9 @@
 # DockerRegistry
 
+[![Build Status](http://img.shields.io/travis/Aigeruth/docker-private-registry.svg)][travis]
+
+[travis]: http://travis-ci.org/Aigeruth/docker-private-registry
+
 Docker Registry implemented in Ruby.
 
 * [Demo](http://docker-private-registry.herokuapp.com)
