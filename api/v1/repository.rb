@@ -50,6 +50,7 @@ module DockerRegistry
               header 'X-Docker-Endpoints', index_endpoint
               header 'WWW-Authenticate', token
               header 'X-Docker-Token', token(repository, 'write')
+              body ''
             end
 
             # Could be at the top if :except would be supported.

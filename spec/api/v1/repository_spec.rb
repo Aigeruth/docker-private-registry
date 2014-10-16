@@ -44,7 +44,7 @@ describe DockerRegistry::V1::RepositoryAPI do
       before { put '/v1/repositories/library/dummy', {}, body }
 
       its(:status) { should eq(200) }
-      its(:body) { should have_json_size 1 }
+      its(:body) { should be_json_eql '""' }
       its(['x-docker-endpoints']) { should_not be_empty }
       its(['x-docker-endpoints']) { should include host }
       its(['www-authenticate']) { should include 'library' }
