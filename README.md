@@ -3,10 +3,12 @@
 [![Build Status](http://img.shields.io/travis/Aigeruth/docker-private-registry.svg)][travis]
 [![Coverage](http://img.shields.io/coveralls/Aigeruth/docker-private-registry.svg)][coveralls]
 [![Code Climate](http://img.shields.io/codeclimate/github/Aigeruth/docker-private-registry.svg)][codeclimate]
+[![Dependency Status](http://img.shields.io/gemnasium/Aigeruth/docker-private-registry.svg)][gemnasium]
 
 [travis]: http://travis-ci.org/Aigeruth/docker-private-registry
 [coveralls]: https://coveralls.io/r/Aigeruth/docker-private-registry
 [codeclimate]: https://codeclimate.com/github/Aigeruth/docker-private-registry
+[gemnasium]: https://gemnasium.com/Aigeruth/docker-private-registry
 
 Docker Registry implemented in Ruby.
 
