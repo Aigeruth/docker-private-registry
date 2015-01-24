@@ -139,6 +139,5 @@ describe DockerRegistry::V1::RepositoryAPI do
 
       its(:status) { should eq(200) }
     end
-
   end
 end

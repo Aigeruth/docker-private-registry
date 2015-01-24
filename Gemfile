@@ -1,7 +1,7 @@
 # A sample Gemfile
 source 'https://rubygems.org'
 
-ruby '2.1.3'
+ruby '2.1.5'
 
 gem 'sinatra', '~> 1.4.5'
 gem 'sinatra-contrib', '~> 1.4.2'
@@ -14,7 +14,7 @@ gem 'rake'
 gem 'faker', '~> 1.4.3'
 
 group :lint do
-  gem 'rubocop', '~> 0.26.0'
+  gem 'rubocop', '~> 0.28'
 end
 
 group :development do

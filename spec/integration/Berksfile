@@ -1,4 +1,4 @@
-source "https://supermarket.getchef.com"
+source 'https://supermarket.getchef.com'
 
 cookbook 'docker', '~> 0.35.2'
 cookbook 'rbenv', github: 'fnichol/chef-rbenv', tag: 'v0.7.2'

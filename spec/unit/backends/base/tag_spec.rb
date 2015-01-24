@@ -18,7 +18,6 @@ describe DockerRegistry::Backends::BaseTag do
     end
 
     context 'arguments: name, repository' do
-
       it { should raise_error RuntimeError, image_error_msg }
     end
 
