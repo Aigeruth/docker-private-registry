@@ -19,8 +19,8 @@ end
 
 group :development do
   gem 'rerun', '~> 0.10.0'
-  gem 'guard-rubocop', '~> 1.1.0'
-  gem 'guard-rspec', '~> 4.3.0'
+  gem 'guard-rubocop', '~> 1.2.0'
+  gem 'guard-rspec', '~> 4.5.0'
 
   # Notification
   gem 'terminal-notifier-guard'
@@ -33,7 +33,7 @@ group :test do
   gem 'simplecov', '~> 0.9.0'
   gem 'coveralls', '~> 0.7.0'
   gem 'rspec', '~> 3.1.0'
-  gem 'rspec-its', '~> 1.0.1'
+  gem 'rspec-its', '~> 1.1.0'
   gem 'rack-test', '~> 0.6.2'
   gem 'json_spec', '~> 1.1.2'
 end
