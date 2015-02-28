@@ -49,7 +49,7 @@ module DockerRegistry
       end
 
       def tags
-        Hash.new.tap do |tags|
+        {}.tap do |tags|
           Dir.glob(File.join(path, 'tags', '*')).map do |name|
             name = File.basename name
             tags[name] = tag(name).image.id
