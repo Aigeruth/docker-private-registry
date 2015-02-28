@@ -32,8 +32,8 @@ end
 group :test do
   gem 'simplecov', '~> 0.9.0'
   gem 'coveralls', '~> 0.7.0'
-  gem 'rspec', '~> 3.1.0'
-  gem 'rspec-its', '~> 1.1.0'
+  gem 'rspec', '~> 3.2.0'
+  gem 'rspec-its', '~> 1.2.0'
   gem 'rack-test', '~> 0.6.2'
   gem 'json_spec', '~> 1.1.2'
 end
