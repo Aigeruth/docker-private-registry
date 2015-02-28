@@ -1,11 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (4.1.5)
-      i18n (~> 0.6, >= 0.6.9)
+    activesupport (4.2.0)
+      i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
       minitest (~> 5.1)
-      thread_safe (~> 0.1)
+      thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     ast (2.0.0)
     astrolabe (1.3.0)
@@ -49,8 +49,8 @@ GEM
     grape-entity (0.4.4)
       activesupport
       multi_json (>= 1.3.2)
-    grape-swagger (0.8.0)
-      grape
+    grape-swagger (0.9.0)
+      grape (>= 0.8.0)
       grape-entity
     guard (2.11.1)
       formatador (>= 0.2.4)
@@ -71,11 +71,11 @@ GEM
       rubocop (~> 0.20)
     haml (4.0.6)
       tilt
-    hashie (3.3.1)
+    hashie (3.4.0)
     hitimes (1.2.2)
-    i18n (0.6.11)
-    ice_nine (0.11.0)
-    json (1.8.1)
+    i18n (0.7.0)
+    ice_nine (0.11.1)
+    json (1.8.2)
     json_spec (1.1.4)
       multi_json (~> 1.0)
       rspec (>= 2.0, < 4.0)
@@ -87,7 +87,7 @@ GEM
     lumberjack (1.0.9)
     method_source (0.8.2)
     mime-types (2.4.3)
-    minitest (5.4.1)
+    minitest (5.5.1)
     multi_json (1.10.1)
     multi_xml (0.5.5)
     nenv (0.2.0)
@@ -180,7 +180,7 @@ GEM
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
-    virtus (1.0.3)
+    virtus (1.0.4)
       axiom-types (~> 0.1)
       coercible (~> 1.0)
       descendants_tracker (~> 0.0, >= 0.0.3)
@@ -194,7 +194,7 @@ DEPENDENCIES
   coveralls (~> 0.7.0)
   faker (~> 1.4.3)
   grape (~> 0.9.0)
-  grape-swagger (~> 0.8.0)
+  grape-swagger (~> 0.9.0)
   guard-rspec (~> 4.5.0)
   guard-rubocop (~> 1.2.0)
   haml (~> 4.0.5)
