@@ -14,7 +14,7 @@ gem 'rake'
 gem 'faker', '~> 1.4.3'
 
 group :lint do
-  gem 'rubocop', '~> 0.28'
+  gem 'rubocop'
 end
 
 group :development do
