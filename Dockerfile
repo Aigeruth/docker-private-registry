@@ -1,4 +1,4 @@
-FROM ruby:2.1.3-onbuild
+FROM ruby:2.1.5-onbuild
 
 ADD config.yml.sample /usr/src/app/config.yml
 VOLUME ["/usr/src/app/storage"]
