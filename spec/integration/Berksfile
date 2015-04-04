@@ -1,5 +1,5 @@
 source 'https://supermarket.getchef.com'
 
-cookbook 'docker', '~> 0.35.2'
-cookbook 'rbenv', github: 'fnichol/chef-rbenv', tag: 'v0.7.2'
-cookbook 'ruby_build', github: 'fnichol/chef-ruby_build', tag: 'v0.8.0'
+cookbook 'docker', '~> 0.36.0'
+cookbook 'rbenv', github: 'fnichol/chef-rbenv'
+cookbook 'ruby_build', github: 'fnichol/chef-ruby_build'
