@@ -108,7 +108,7 @@ module DockerRegistry
       end
 
       def save_json(destination, content)
-        IO.write destination, ActiveSupport::JSON.encode(content)
+        IO.write destination, ActiveSupport::JSON.encode(content) + "\n"
       end
     end
   end
