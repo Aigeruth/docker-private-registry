@@ -19,7 +19,7 @@ module DockerRegistry
       end
 
       def tags
-        { 'latest' => 'dummy_id' }
+        { 'latest' => 'db7661edb9a2045e5a4fa90010bdb66c4623338b17d7393e72e6e32f831282a8' }
       end
 
       class << self

@@ -67,7 +67,7 @@ describe DockerRegistry::V1::ImageAPI do
 
       its(:status) { should eq 200 }
       its(:body) { should have_json_size 1 }
-      its(:body) { should be_json_eql '["dummy_id"]' }
+      its(:body) { should be_json_eql '["db7661edb9a2045e5a4fa90010bdb66c4623338b17d7393e72e6e32f831282a8"]' }
     end
   end
 end
