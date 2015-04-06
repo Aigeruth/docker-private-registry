@@ -25,7 +25,7 @@ module DockerRegistry
       def delete!; end
 
       def metadata
-        { 'id' => 'dummy_id', 'container_config' => {} }
+        { 'id' => 'db7661edb9a2045e5a4fa90010bdb66c4623338b17d7393e72e6e32f831282a8', 'container_config' => {} }
       end
 
       def checksum
@@ -43,7 +43,7 @@ module DockerRegistry
       end
 
       def ancestry
-        ['dummy_id']
+        ['db7661edb9a2045e5a4fa90010bdb66c4623338b17d7393e72e6e32f831282a8']
       end
 
       private
