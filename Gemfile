@@ -1,7 +1,7 @@
 # A sample Gemfile
 source 'https://rubygems.org'
 
-ruby '2.1.5'
+ruby '2.1.6'
 
 gem 'sinatra', '~> 1.4.5'
 gem 'sinatra-contrib', '~> 1.4.2'
@@ -30,8 +30,8 @@ group :development do
 end
 
 group :test do
-  gem 'simplecov', '~> 0.9.0'
-  gem 'coveralls', '~> 0.8.0'
+  gem 'simplecov'
+  gem 'coveralls'
   gem 'rspec', '~> 3.2.0'
   gem 'rspec-its', '~> 1.2.0'
   gem 'rack-test', '~> 0.6.2'
