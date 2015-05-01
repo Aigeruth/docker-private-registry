@@ -83,7 +83,7 @@ GEM
     json_spec (1.1.4)
       multi_json (~> 1.0)
       rspec (>= 2.0, < 4.0)
-    kgio (2.9.2)
+    kgio (2.9.3)
     listen (2.8.5)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
@@ -184,7 +184,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.1)
-    unicorn (4.8.3)
+    unicorn (4.9.0)
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
@@ -221,5 +221,5 @@ DEPENDENCIES
   sinatra (~> 1.4.5)
   sinatra-contrib (~> 1.4.2)
   terminal-notifier-guard
-  unicorn (~> 4.8.3)
+  unicorn
   yard (~> 0.8.7.4)

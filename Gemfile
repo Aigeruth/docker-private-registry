@@ -38,4 +38,4 @@ group :test do
   gem 'json_spec', '~> 1.1.2'
 end
 
-gem 'unicorn', '~> 4.8.3'
+gem 'unicorn'
